@@ -331,3 +331,11 @@ Compiled and maintained from upstream [pear-devs/pear-desktop](https://github.co
 ---
 
 Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
+
+## Sources
+
+Compiled and maintained from upstream [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
