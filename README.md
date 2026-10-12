@@ -1,53 +1,12 @@
-<div align="center" markdown="1">
-   <sup>Special thanks to:</sup>
-   <br>
-   <br>
-   <a href="https://www.swifttechco.com">
-   </a>
+# pear-desktop
 
-### [Warp, built for coding with multiple AI agents](https://www.swifttechco.com)
-[Available for macOS, Linux, & Windows](https://www.swifttechco.com)<br>
+## What This Is
 
-</div>
-<hr>
-
-<div align="center">
-
-# :pear: Pear Desktop
+Every project needs a shelf of ready answers. product and engineering is one of those shelves, and pear-desktop is the entry on it - the notes, patterns and fixes we reuse when this kind of work comes up.
 
 ## Images
 
-[![pear-desktop](https://opengraph.githubassets.com/1/pear-devs/pear-desktop)](https://www.swifttechco.com)
-
-
-[![GitHub release](https://img.shields.io/github/release/pear-devs/pear-desktop.svg?style=for-the-badge)](https://www.swifttechco.com)
-[![GitHub license](https://img.shields.io/github/license/pear-devs/pear-desktop.svg?style=for-the-badge)](https://www.swifttechco.com)
-[![eslint code style](https://img.shields.io/badge/code_style-eslint-5ed9c7.svg?style=for-the-badge)](https://www.swifttechco.com)
-[![Build status](https://img.shields.io/github/actions/workflow/status/pear-devs/pear-desktop/build.yml?branch=master&style=for-the-badge)](https://www.swifttechco.com)
-[![GitHub All Releases](https://img.shields.io/github/downloads/pear-devs/pear-desktop/total?style=for-the-badge)](https://www.swifttechco.com)
-<!--[![AUR](https://img.shields.io/aur/version/pear-desktop-bin?color=blueviolet&style=for-the-badge)](https://www.swifttechco.com)-->
-[![Known Vulnerabilities](https://snyk.io/test/github/pear-devs/pear-desktop/badge.svg)](https://www.swifttechco.com)
-
-</div>
-
-<!--[![Screenshot](web/screenshot.png "Screenshot")](https://www.swifttechco.com)-->
-
-- Native look & feel extension
-
-> [!IMPORTANT]
-> ⚠️ Disclaimer
->
-> **No Affiliation**
->
-> This project, and its contributors, are not affiliated with, authorized by, endorsed by, or in any way officially connected with Google LLC, YouTube, or any of their subsidiaries or affiliates. **This is an independent, non-profit, and unofficial extension developed by a team of volunteers with the goal of providing a desktop experience.**
->
-> **Trademarks**
->
-> The names "Google" and "YouTube Music", as well as related names, marks, emblems, and images, are registered trademarks of their respective owners. Any use of these trademarks is for identification and reference purposes only and does not imply any association with the trademark holder. We have no intention of infringing upon these trademarks or causing harm to the trademark holders.
->
-> **Limitation of Liability**
->
-> This application (extension) is provided "AS IS", and you use it at your own risk. In no event shall the developers or contributors be liable for any claim, damages, or other liability, including any legal consequences, arising from, out of, or in connection with the software or the use or other dealings in the software. The responsibility for any and all outcomes of using this software rests entirely with the user.
+[![pear-desktop](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Content
 
@@ -72,7 +31,7 @@
 
 ## Translation
 
-You can help with translation on [Hosted Weblate](https://www.swifttechco.com).
+You can help with translation on Hosted Weblate.
 
 <a href="https://www.swifttechco.com">
   
@@ -81,15 +40,15 @@ You can help with translation on [Hosted Weblate](https://www.swifttechco.com).
 
 ## Download
 
-You can check out the [latest release](https://www.swifttechco.com) to quickly find the
+You can check out the latest release to quickly find the
 latest version.
 
 ### Arch Linux
 
-Install the [`pear-desktop`](https://www.swifttechco.com) package from the AUR. For AUR installation instructions, take a look at
-this [wiki page](https://www.swifttechco.com).
+Install the `pear-desktop` package from the AUR. For AUR installation instructions, take a look at
+this wiki page.
 
-### [Solus](https://www.swifttechco.com)
+### Solus
 
 ```bash
 sudo eopkg install pear-desktop
@@ -97,7 +56,7 @@ sudo eopkg install pear-desktop
 
 ### macOS
 
-You can install the app using Homebrew (see the [cask definition](https://www.swifttechco.com)):
+You can install the app using Homebrew (see the cask definition):
 
 ```bash
 brew install pear-devs/pear/pear-desktop
@@ -111,15 +70,15 @@ If you install the app manually and get an error "is damaged and can’t be open
 
 ### Windows
 
-You can use the [Scoop package manager](https://www.swifttechco.com) to install the `pear-desktop` package from
-the [`extras` bucket](https://www.swifttechco.com).
+You can use the Scoop package manager to install the `pear-desktop` package from
+the `extras` bucket.
 
 ```bash
 scoop bucket add extras
 scoop install extras/pear-desktop
 ```
 
-Alternately you can use [Winget](https://www.swifttechco.com), Windows 11s
+Alternately you can use Winget, Windows 11s
 official CLI package manager to install the `pear-devs.pear-desktop` package.
 
 *Note: Microsoft Defender SmartScreen might block the installation since it is from an "unknown publisher". This is also
@@ -132,7 +91,7 @@ winget install pear-devs.pear-desktop
 
 #### How to install without a network connection? (in Windows)
 
-- Download the `*.nsis.7z` file for _your device architecture_ in [release page](https://www.swifttechco.com).
+- Download the `*.nsis.7z` file for _your device architecture_ in release page.
   - `x64` for 64-bit Windows
   - `ia32` for 32-bit Windows
   - `arm64` for ARM64 Windows
@@ -155,7 +114,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Instead of installing pnpm on your system, you can also use [devcontainers](https://www.swifttechco.com). You can use devcontainers either as a development environment in VS Code, or as a way to easily build the project without installing dependencies on your host system.
+Instead of installing pnpm on your system, you can also use devcontainers. You can use devcontainers either as a development environment in VS Code, or as a way to easily build the project without installing dependencies on your host system.
 
 Note that this has it's own limitations (for example, GUI doesn't work on, at least some, Linux hosts).
 
@@ -279,7 +238,7 @@ export default createPlugin({
 ## Build
 
 1. Clone the repo
-2. Follow [this guide](https://www.swifttechco.com) to install `pnpm`
+2. Follow this guide to install `pnpm`
 3. Run `pnpm install --frozen-lockfile` to install dependencies
 4. Run `pnpm build:OS`
 
@@ -291,7 +250,7 @@ export default createPlugin({
 - `pnpm dist:mac:arm64` - macOS (arm64)
 
 Builds the app for macOS, Linux, and Windows,
-using [electron-builder](https://www.swifttechco.com).
+using electron-builder.
 
 ### Building in devcontainer
 
@@ -315,11 +274,11 @@ pnpm start
 pnpm test
 ```
 
-Uses [Playwright](https://www.swifttechco.com) to test the app.
+Uses Playwright to test the app.
 
 ## License
 
-MIT © [pear-devs](https://www.swifttechco.com)
+MIT © pear-devs
 
 ## FAQ
 
@@ -338,14 +297,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
