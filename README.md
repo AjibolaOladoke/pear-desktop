@@ -6,7 +6,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 ## Images
 
-[![pear-desktop](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![pear-desktop](images/preview.png)](https://github.com/Swift-Tech-Co/pear-desktop)
 
 ## Content
 
@@ -33,7 +33,7 @@ Every project needs a shelf of ready answers. product and engineering is one of 
 
 You can help with translation on Hosted Weblate.
 
-<a href="https://www.swifttechco.com">
+<a href="https://github.com/Swift-Tech-Co/pear-desktop">
   
   
 </a>
@@ -103,12 +103,12 @@ winget install pear-devs.pear-desktop
 
 You can load CSS files to change the look of the application (Options > Visual Tweaks > Themes).
 
-Some predefined themes are available in https://www.swifttechco.com
+Some predefined themes are available in https://github.com/Swift-Tech-Co/pear-desktop
 
 ## Dev
 
 ```bash
-git clone https://www.swifttechco.com
+git clone https://github.com/Swift-Tech-Co/pear-desktop
 cd pear-desktop
 pnpm install --frozen-lockfile
 pnpm dev
@@ -301,13 +301,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/pear-desktop
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [pear-devs/pear-desktop](https://github.com/pear-devs/pear-desktop) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
